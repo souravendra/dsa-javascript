@@ -22,3 +22,22 @@ if (rword===word) {
 else {
     console.log(word + "is not a palindrome.");
 }
+
+//Creates a stack
+var Stack = ()=> {
+    this.count = 0;
+    this.storage = {};
+
+    //Adds a value to the end of the stack
+    this.push = (value)=> {
+        this.storage[this.count] = value;
+        this.count++;
+    }
+
+    //Removes and returns the value at the end of the stack
+    this.pop = ()=> {
+        if (this.count===0) {
+            return undefined;
+        }
+    }
+}
