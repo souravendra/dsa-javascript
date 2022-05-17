@@ -5,13 +5,12 @@ addSix(21) should return 27
 */
 
 createBase = (number) => {
-    return (result) => {
-        return result + number;
-    }
-}
-
+  return (result) => {
+    return result + number;
+  };
+};
 
 var addSix = createBase(6);
 
-console.warn(addSix(10))
-console.warn(addSix(21))
+console.warn(addSix(10));
+console.warn(addSix(21));
