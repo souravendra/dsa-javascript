@@ -22,7 +22,7 @@
   "files.autoSave": "afterDelay",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "files.trimFinalNewlines": true,
